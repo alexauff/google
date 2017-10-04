@@ -3,11 +3,18 @@ height: 100%;
 margin: 0;
 }
 
+body {
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
 #logo {
 	height: 92px;
 	width: 272px;
 }
-section {
+
+.corps {
 
 	display:flex;
 	justify-content: center;
