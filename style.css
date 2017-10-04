@@ -1,5 +1,6 @@
 html,body{
 height: 100%;
+margin: 0;
 }
 
 
@@ -80,3 +81,46 @@ border: 1px solid #c6c6c6;
 outline: 0;
 }
 
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+
+#footer_left{
+	justify-content: flex-start;
+}
+
+#footer_right{
+	justify-content: flex-end;
+}
+
+footer nav {
+	background-color: #F2F2F2;
+	display: flex;
+	flex-direction: row;
+}
+
+footer ul {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	list-style-type: none;
+	padding: 0;
+}
+
+footer li {
+	margin: 0px 15px 0 15px;
+}
+
+footer a {
+	font-family: arial;
+	font-size: small;
+	color: #666;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
