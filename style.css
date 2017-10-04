@@ -5,6 +5,7 @@
 
 * {
 	outline: 0;
+	font-family: arial, sans-serif;
 }
 
 html,body {
@@ -36,7 +37,6 @@ flex-direction: row;
 }
 
 header a {
-	font-family: arial;
 	font-size: small;
 	color: #666;
 	text-decoration: none;
@@ -73,7 +73,6 @@ header li {
 	border-radius: 21px;
 	color: white;
 	font-size: 14px;
-	font-family: arial, sans serif;
 	margin-left: -3px;
 }
 
@@ -103,13 +102,13 @@ header li {
 
 #div_search{
 	margin: 0 12px 0 12px;
-	box-shadow: 0 2px 4px 0 #c8c8c8; 
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08); 
 	border-radius: 2px;
 	border: 0.1px solid #fff;
 }
 
 #div_search:hover{
-	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16);
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08) ;
 }
 
 #search{
@@ -117,6 +116,7 @@ header li {
 	width: 584px;
 	height: 44px;
 	border: none;
+	font-size: 16px;
 }
 
 #rech, #lucky{
@@ -126,12 +126,11 @@ header li {
 	font-weight: bold;
 	margin: 35px 5px 0 5px;
 	height: 36px;
-	border: none;
+	border: 1px solid #fff;
 	background-color: #f2f2f2;
 	color: #757575;
 	border-radius: 3px;
 	line-height: 27px;
-	font-family: arial;
 }
 
 
@@ -145,8 +144,6 @@ header li {
 
 footer {
 	width: 100%;
-	position: absolute;
-	bottom: 0;
 }
 
 #footer_left {
@@ -176,7 +173,6 @@ footer li {
 }
 
 footer a {
-	font-family: arial;
 	font-size: small;
 	color: #666;
 	text-decoration: none;
