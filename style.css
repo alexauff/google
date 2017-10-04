@@ -74,3 +74,9 @@ border: 1px solid #c6c6c6;
     font-family: 'roboto';
     src: url('Roboto-Regular.ttf') format('truetype');
 }
+
+* 
+{
+outline: 0;
+}
+
