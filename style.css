@@ -1,6 +1,15 @@
-html,body{
-height: 100%;
-margin: 0;
+@font-face {
+    font-family: 'roboto';
+    src: url('Roboto-Regular.ttf') format('truetype');
+}
+
+* {
+	outline: 0;
+}
+
+html,body {
+	height: 100%;
+	margin: 0;
 }
 
 body {
@@ -9,84 +18,16 @@ body {
 	flex-direction: column;
 }
 
-#logo {
-	height: 92px;
-	width: 272px;
+.underline:hover {
+	text-decoration: underline;
 }
 
-.corps {
-
-	display:flex;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-	flex-direction: column;
-}
-
-#div_search{
-	margin: 0 12px 0 12px;
-	box-shadow: 0 2px 4px 0 #c8c8c8; 
-	border-radius: 2px;
-	border: 0.1px solid #fff;
-}
-
-#div_search:hover{
-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16);
-}
-
-#search{
-	margin-left: 10px;
-	width: 584px;
-	height: 44px;
-	border: none;
-}
-
-#rech,#lucky{
-padding: 0px 16px ;
-text-align: center;
-font-size: 13px;
-font-weight: bold;
-margin: 35px 5px 0 5px;
-height: 36px;
-border: none;
-background-color: #f2f2f2;
-color: #757575;
-border-radius: 3px;
-line-height: 27px;
-font-family: arial;
-}
-
-
-#rech:hover,#lucky:hover{
-box-shadow: 0 1px 1px 0 grey;
-color: black;
-border: 1px solid #c6c6c6;
-}
-
-#france{
-	font-size: 16px;
-	font-family: roboto;
-	color: #4285f4;
-	position: relative;
-	left:11px;
-	top:-25px;
-}
-
-@font-face{
-    font-family: 'roboto';
-    src: url('Roboto-Regular.ttf') format('truetype');
-}
-
-*{
-outline: 0;
-}
+/* HEADER */
 
 header ul{
 list-style-type: none;
 display: flex;
 flex-direction: row;
-/* position: relative;
-left:1000px;*/
 }
 
 #header_right{
@@ -105,11 +46,11 @@ header li {
 	margin: 0px 12px 0 12px;
 }
 
-#icon1{
+#icon1 {
 	color: grey ;
 }
 
-.bell{
+#bell {
 	background-color: grey;
 	width: 10px;
 	height: 10px;
@@ -118,12 +59,12 @@ header li {
 	border-radius: 12px;
 }
 
-.bell:hover{
+#bell:hover {
 	background-color: black;
 	border: solid black 1px;
 }
 
-.account{
+#account {
 	background-color: purple;
 	width: 10px;
 	height: 10px;
@@ -136,6 +77,71 @@ header li {
 	margin-left: -3px;
 }
 
+/* MAIN */
+
+#corps {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	flex-direction: column;
+}
+
+#logo {
+	height: 92px;
+	width: 272px;
+}
+
+#france {
+	font-size: 16px;
+	font-family: roboto;
+	color: #4285f4;
+	position: relative;
+	left:11px;
+	top:-25px;
+}
+
+#div_search{
+	margin: 0 12px 0 12px;
+	box-shadow: 0 2px 4px 0 #c8c8c8; 
+	border-radius: 2px;
+	border: 0.1px solid #fff;
+}
+
+#div_search:hover{
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16);
+}
+
+#search{
+	margin-left: 10px;
+	width: 584px;
+	height: 44px;
+	border: none;
+}
+
+#rech, #lucky{
+	padding: 0px 16px ;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 35px 5px 0 5px;
+	height: 36px;
+	border: none;
+	background-color: #f2f2f2;
+	color: #757575;
+	border-radius: 3px;
+	line-height: 27px;
+	font-family: arial;
+}
+
+
+#rech:hover,#lucky:hover {
+	box-shadow: 0 1px 1px 0 grey;
+	color: black;
+	border: 1px solid #c6c6c6;
+}
+
+/* FOOTER */
 
 footer {
 	width: 100%;
@@ -143,12 +149,11 @@ footer {
 	bottom: 0;
 }
 
-
-#footer_left{
+#footer_left {
 	justify-content: flex-start;
 }
 
-#footer_right{
+#footer_right {
 	justify-content: flex-end;
 }
 
@@ -176,9 +181,3 @@ footer a {
 	color: #666;
 	text-decoration: none;
 }
-
-.underline:hover {
-	text-decoration: underline;
-}
-
-
