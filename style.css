@@ -49,7 +49,6 @@ color: #757575;
 border-radius: 3px;
 line-height: 27px;
 font-family: arial;
-
 }
 
 
@@ -57,7 +56,6 @@ font-family: arial;
 box-shadow: 0 1px 1px 0 grey;
 color: black;
 border: 1px solid #c6c6c6;
-
 }
 
 #france{
@@ -67,17 +65,14 @@ border: 1px solid #c6c6c6;
 	position: relative;
 	left:11px;
 	top:-25px;
-
 }
 
-@font-face 
-{ 
+@font-face{
     font-family: 'roboto';
     src: url('Roboto-Regular.ttf') format('truetype');
 }
 
-* 
-{
+*{
 outline: 0;
 }
 
@@ -123,4 +118,17 @@ footer a {
 
 footer a:hover {
 	text-decoration: underline;
+}
+
+header ul{
+list-style-type: none;
+display: flex;
+flex-direction: row;
+/* position: relative;
+left:1000px;*/
+}
+
+header ul li{
+display: flex;
+justify-content: space-between;
 }
