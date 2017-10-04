@@ -3,8 +3,6 @@ height: 100%;
 margin: 0;
 }
 
-
-
 #logo {
 	height: 92px;
 	width: 272px;
@@ -76,6 +74,62 @@ border: 1px solid #c6c6c6;
 outline: 0;
 }
 
+header ul{
+list-style-type: none;
+display: flex;
+flex-direction: row;
+/* position: relative;
+left:1000px;*/
+}
+
+#header_right{
+	display: flex;
+	justify-content: flex-end;
+}
+
+header a {
+	font-family: arial;
+	font-size: small;
+	color: #666;
+	text-decoration: none;
+}
+
+header li {
+	margin: 0px 12px 0 12px;
+}
+
+#icon1{
+	color: grey ;
+}
+
+.bell{
+	background-color: grey;
+	width: 10px;
+	height: 10px;
+	padding: 3px;
+	border: solid grey 1px;
+	border-radius: 12px;
+}
+
+.bell:hover{
+	background-color: black;
+	border: solid black 1px;
+}
+
+.account{
+	background-color: purple;
+	width: 10px;
+	height: 10px;
+	padding: 9px 12px 8px 12px;
+	border: solid purple 0px;
+	border-radius: 21px;
+	color: white;
+	font-size: 14px;
+	font-family: arial, sans serif;
+	margin-left: -3px;
+}
+
+
 footer {
 	width: 100%;
 	position: absolute;
@@ -116,19 +170,8 @@ footer a {
 	text-decoration: none;
 }
 
-footer a:hover {
+.underline:hover {
 	text-decoration: underline;
 }
 
-header ul{
-list-style-type: none;
-display: flex;
-flex-direction: row;
-/* position: relative;
-left:1000px;*/
-}
 
-header ul li{
-display: flex;
-justify-content: space-between;
-}
