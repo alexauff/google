@@ -16,17 +16,23 @@ section {
 	height: 100%;
 	flex-direction: column;
 }
-#search{
-	width: 584px;
-	height: 44px;
-	margin-top: 12px;
+
+#div_search{
+	margin: 0 12px 0 12px;
 	box-shadow: 0 2px 4px 0 #c8c8c8; 
 	border-radius: 2px;
 	border: 0.1px solid #fff;
 }
 
-#search:hover{
+#div_search:hover{
 box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16);
+}
+
+#search{
+	margin-left: 10px;
+	width: 584px;
+	height: 44px;
+	border: none;
 }
 
 #rech,#lucky{
